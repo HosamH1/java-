@@ -15,12 +15,14 @@ public class PublicExample {
         System.out.println("Public access modifier example.");
     }
 }
+```
 
 2. Protected
 
     Description: Accessible within its own package and by subclasses (including those in different packages). More accessible than default but more restrictive than public.
     Example:
-// In packageOne/ProtectedExample.java
+```java
+In packageOne/ProtectedExample.java
 package packageOne;
 
 public class ProtectedExample {
